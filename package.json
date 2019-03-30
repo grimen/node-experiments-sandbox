@@ -1,0 +1,27 @@
+{
+    "name": "node-streams-sandbox",
+    "version": "0.1.0",
+    "description": "Experiments with latest Node.js / Stream API features.",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/grimen/node-sandbox.git"
+    },
+    "bugs": {
+        "url": "https://github.com/grimen/node-sandbox/issues"
+    },
+    "homepage": "https://github.com/grimen/node-sandbox#readme",
+    "author": "Jonas Grimfelt <grimen@gmail.com> (https://github.com/grimen)",
+    "license": "MIT",
+    "devDependencies": {
+        "babel-eslint": "^10.0.1",
+        "eslint": "^5.16.0"
+    },
+    "dependencies": {
+        "JSONStream": "^1.3.5",
+        "async-redis": "^1.1.7",
+        "chalk": "^2.4.2",
+        "debug": "^4.1.1",
+        "express": "^4.16.4",
+        "request": "^2.88.0"
+    }
+}
